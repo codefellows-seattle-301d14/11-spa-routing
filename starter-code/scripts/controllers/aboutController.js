@@ -2,9 +2,9 @@
   var aboutController = {};
 
   aboutController.reveal = function() {
-    /* TODO: Use your DOM skills to reveal only the about section! */
+    /* TODO: DONE sUse your DOM skills to reveal only the about section! */
     $('main section').hide();
-    $('#articles').show();
+    $('#about').show();
   };
 
   module.aboutController = aboutController;
