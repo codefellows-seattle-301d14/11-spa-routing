@@ -4,3 +4,4 @@
 
 // TODO: What function do we call to activate page.js?
 page();
+page('/about', aboutController.reveal);
