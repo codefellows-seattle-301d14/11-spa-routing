@@ -4,7 +4,6 @@
 page('/', home);
 page('/about', about);
 function home(){
-  articleController();
   articleController.reveal();
 }
 function about() {
