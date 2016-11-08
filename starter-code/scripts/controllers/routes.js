@@ -3,12 +3,12 @@
     single controller function to handle it: */
 
 // DONE: What function do we call to activate page.js?
-page();
 page('/', index);
 page('/about', about);
+page();
 
 function index(){
-  articleControle.reveal();
+  articleController.reveal();
 }
 
 function about(){

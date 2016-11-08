@@ -3,8 +3,8 @@
 
   aboutController.reveal = function() {
     /* DONE: Use your DOM skills to reveal only the about section! */
-    document.getElementsByTagName('section').hide();
-    document.getElementById('about').show();
+    $('.tab-content').hide();
+    $('#about').show();
   };
 
   module.aboutController = aboutController;

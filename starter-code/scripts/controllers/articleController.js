@@ -3,8 +3,8 @@
 
   articleController.reveal = function() {
     /* DONE: Use your DOM skills to reveal only the articles section! */
-    document.getElementsByTagName('section').hide();
-    document.getElementById('articles').show();
+    $('.tab-content').hide();
+    $('#articles').show();
   };
 
   module.articleController = articleController;
