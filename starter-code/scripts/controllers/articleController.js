@@ -3,7 +3,7 @@
 
   articleController.reveal = function() {
     /* TODO: DONE Use your DOM skills to reveal only the articles section! */
-    $('main section').hide();
+    $('.tab-content').hide();
     $('#articles').show();
   };
 
