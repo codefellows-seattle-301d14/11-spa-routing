@@ -28,14 +28,8 @@
   };
   /* TODO: Once the routes are handling '/' and '/about', we can delete
       this handleMainNav function. YESSSS! */
+      // DONE
 
-  articleView.handleMainNav = function() {
-    $('.main-nav').on('click', '.tab', function() {
-      $('.tab-content').hide();
-      $('#' + $(this).data('content')).fadeIn();
-    });
-    $('.main-nav .tab:first').click();
-  };
 
   articleView.setTeasers = function() {
     $('h2').prev('p').remove();
@@ -69,9 +63,9 @@
       };
     });
     /* TODO: Remember to also remove any invocations of handleMainNav... */
+    // DONE
     articleView.handleCategoryFilter();
     articleView.handleAuthorFilter();
-    articleView.handleMainNav();
     articleView.setTeasers();
   };
   Article.fetchAll(articleView.renderIndexPage);

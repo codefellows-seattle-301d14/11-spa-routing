@@ -3,14 +3,16 @@
     single controller function to handle it: */
 
 // DONE: What function do we call to activate page.js?22
-page();
+
 page('/', articles);
 page('/about', about);
 
 function articles() {
   articleController.reveal();
-}
+};
 
 function about() {
   aboutController.reveal();
-}
+};
+
+page();
