@@ -3,3 +3,9 @@
     single controller function to handle it: */
 
 // TODO: What function do we call to activate page.js?
+page('/', articleController.reveal);
+page('/about', aboutController.reveal);
+page();
+
+
+//
